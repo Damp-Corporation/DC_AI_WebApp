@@ -1,0 +1,24 @@
+{
+  "language": {
+    "EN": "Anglais",
+    "FR": "Français"
+  },
+  "header": {
+    "title": "Système de retour DGH"
+  },
+  "feedback": {
+    "title": "Retour",
+    "question": "Comment vous sentez-vous à DGH ?",
+    "subtitle": "Votre retour nous aide à mieux comprendre vos besoins et à améliorer notre service.",
+    "placeholder": "Ajoutez un commentaire...",
+    "submit": "Envoyer maintenant",
+    "button": "Donner votre avis"
+  },
+  "feelings": {
+    "Overwhelmed": "Débordé",
+    "Sad": "Triste",
+    "Neutral": "Neutre",
+    "Happy": "Heureux",
+    "Loved": "Aimé"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "language": {
+    "EN": "English",
+    "FR": "French"
+  },
+  "header": {
+    "title": "DGH Feedback System"
+  },
+  "feedback": {
+    "title": "Feedback",
+    "question": "How are you feeling DGH?",
+    "subtitle": "Your input is valuable in helping us better understand your needs and tailor our service accordingly.",
+    "placeholder": "Add a Comment...",
+    "submit": "Submit Now",
+    "button": "Give Feedback"
+  },
+  "feelings": {
+    "Overwhelmed": "Overwhelmed",
+    "Sad": "Sad",
+    "Neutral": "Neutral",
+    "Happy": "Happy",
+    "Loved": "Loved"
+  }
+}

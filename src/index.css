@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* font-family */
+  --font-sans: Be Vietnam Pro, sans-serif;
+
+  /* colors */
+  --color-primary: rgb(105, 71, 150);
+  --color-primary-200: rgba(105, 71, 150, 0.1);
+  --color-secondary: rgb(204, 96, 57);
+  --color-font: #eee9ff;
+  --color-tertiary: rgb(231, 43, 126);
+  --color-quaternary: #AAD8DF;
+  /* rgb(22, 145, 169); */
+  --color-pricing: #f4f7fa;
+  --color-recruiter: #f1f1f1;
+}
+
+@layer utilities {
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.2);
+    }
+  }
+
+  .animate-zoom {
+    animation: zoom 4s ease-in-out infinite;
+  }
+
+  .clip-triangle {
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  }
+
+  .custom-frame {
+    clip-path: polygon(25px 0%,
+        /* coin haut gauche */
+        100% 0%,
+        100% calc(100% - 25px),
+        /* coin bas droit */
+        calc(100% - 25px) 100%,
+        0% 100%,
+        0% 25px);
+  }
+
+  @keyframes fast {
+          0%, 100% {
+            transform: translateY(-5%);
+            animation-timing-function: cubic-bezier(0.25, 0, 0.25, 0.4);
+          }
+          50% {
+            transform: translateY(0);
+            /* animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+          }
+      }
+     
+    
+
+  .animate-fast {
+    animation: fast 1s infinite;
+  }
+
+}
+
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+
+.container {
+  /*width: 100%;*/
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 450px) {
+
+  .container {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 575px) {
+
+  .container {
+    max-width: 575px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 1100px) {
+
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1500px) {
+
+  .container {
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 1700px) {
+
+  .container {
+    max-width: 1700px;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(105, 71, 150) !important;
+  /* change arrow color */
+  padding: 10px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 30px !important;
+  /* arrow size */
+  font-weight: bold;
+}
+
+.swiper-pagination {
+  top: 10px !important;
+  right: 10px !important;
+  bottom: auto !important;
+  left: auto !important;
+  width: auto !important;
+}
+
+.sanitized-content>*+* {
+  margin-top: 1rem;
+  /* ou autre espacement */
+}
+
+
+
+
+
+
+
+/*@media (min-width: 575px){*/
+
+/*  .container{*/
+/*    max-width: 540px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 768px){*/
+
+/*  .container{*/
+/*    max-width: 720px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 992px){*/
+
+/*  .container{*/
+/*    max-width: 960px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 1200px){*/
+
+/*  .container{*/
+/*    max-width: 1140px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 1400px){*/
+
+/*  .container{*/
+/*    max-width: 1320px;*/
+/*  }*/
+/*}*/
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000a3;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00000080;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000040;
+  border-radius: 5px;
+}
