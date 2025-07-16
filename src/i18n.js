@@ -4,6 +4,9 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 
 import translationEN from './locales/en/en.json';
 import translationFR from './locales/fr/fr.json';
+import translationDLA from './locales/dla/dla.json';
+import translationEWO from './locales/ewo/ewo.json';
+import translationBAS from './locales/bas/bas.json';
 import { configureMoment } from './utils/configureMoment';
 import Backend from 'i18next-http-backend';
 
@@ -24,6 +27,15 @@ i18n
             },
             fr: {
                 translation: translationFR,
+            },
+            dla: {
+                translation: translationDLA,
+            },
+            ewo: {
+                translation: translationEWO,
+            },
+            bas: {
+                translation: translationBAS,
             }
         },
 

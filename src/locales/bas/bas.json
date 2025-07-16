@@ -1,0 +1,32 @@
+
+{
+  "language": {
+    "EN": "English",
+    "FR": "Français",
+    "DLA": "Douala",
+    "EWO": "Ewondo",
+    "BAS": "Basa"
+  },
+  "header": {
+    "title": "Sɛ mɛ yɔ DGH",
+    "button": "Lɔ̂ tondi"
+  },
+  "footer": {
+    "copywrite": "Lɛ́ mɛ́ wɔ DGH"
+  },
+  "feedback": {
+    "title": "Mɛ́ yɔ",
+    "question": "Wɔ lɛ́ mɛ́ kɔɔ na DGH?",
+    "subtitle": "Mɛ́ yɔ na ɛ tɛ sɛ wumɛ́ lɛ, ɛ bɔ lɛ ɛ yɛ mɔbɛ́.",
+    "placeholder": "Yɔ́ mɛ wɛ...",
+    "submit": "Sɛ mɛ́ yɔ",
+    "button": "Tɛɛ mɛ́ yɔ"
+  },
+  "feelings": {
+    "Overwhelmed": "Mbɔsɔ",
+    "Sad": "Bɛtɛ",
+    "Neutral": "Mɔtɔ",
+    "Happy": "Sɛŋɛ",
+    "Loved": "Bɔbɔ"
+  }
+}

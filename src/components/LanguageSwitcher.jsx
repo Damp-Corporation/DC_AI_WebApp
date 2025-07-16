@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useContext } from 'react';
 import { LanguageContext } from './Layout';
 
 const LanguageSwitcher = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const currentLanguage = useContext(LanguageContext);
@@ -16,8 +16,11 @@ const LanguageSwitcher = () => {
   };
 
   const languages = [
-    { code: 'en', name: 'EN', flag: '🇬🇧' },
-    { code: 'fr', name: 'FR', flag: '🇫🇷' },
+    { code: 'en', name: t("language.EN"), flag: '🇬🇧' },
+    { code: 'fr', name: t("language.FR"), flag: '🇫🇷' },
+    { code: 'ewo', name: t("language.EWO"), flag: '🇨🇲' },
+    { code: 'dla', name: t("language.DLA"), flag: '🇨🇲' },
+    { code: 'bas', name: t("language.BAS"), flag: '🇨🇲' },
   ];
 
   useEffect(() => {
@@ -26,7 +29,6 @@ const LanguageSwitcher = () => {
         setIsOpen(false);
       }
     };
-
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
@@ -38,7 +40,10 @@ const LanguageSwitcher = () => {
         className="inline-flex items-center gap-2 px-3 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-100 focus:outline-none"
       >
         <Globe size={18} />
-        {languages.find((l) => l.code === currentLanguage.language)?.name || 'EN'}
+        {
+          languages.find((l) => l.code === currentLanguage.language)?.name 
+          || t("language.EN")
+        }
       </button>
 
       {isOpen && (

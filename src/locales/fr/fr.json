@@ -1,24 +1,31 @@
 {
   "language": {
-    "EN": "Anglais",
-    "FR": "Français"
+    "EN": "English",
+    "FR": "Français",
+    "DLA": "Douala",
+    "EWO": "Ewondo",
+    "BAS": "Bassa"
   },
   "header": {
-    "title": "Système de retour DGH"
+    "title": "Système de retour DGH",
+    "button": "Se connecter"
+  },
+  "footer": {
+    "copywrite": "Hôpital Général de Douala"
   },
   "feedback": {
     "title": "Retour",
-    "question": "Comment vous sentez-vous à DGH ?",
-    "subtitle": "Votre retour nous aide à mieux comprendre vos besoins et à améliorer notre service.",
+    "question": "Comment vous trouvez vos soins à DGH ?",
+    "subtitle": "Votre retour nous aide à mieux comprendre vos besoins et à améliorer nos services.",
     "placeholder": "Ajoutez un commentaire...",
     "submit": "Envoyer maintenant",
     "button": "Donner votre avis"
   },
   "feelings": {
-    "Overwhelmed": "Débordé",
+    "Overwhelmed": "Mauvais",
     "Sad": "Triste",
     "Neutral": "Neutre",
     "Happy": "Heureux",
-    "Loved": "Aimé"
+    "Loved": "Formidable"
   }
 }

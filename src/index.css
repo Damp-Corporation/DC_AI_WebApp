@@ -6,12 +6,12 @@
   --font-sans: Be Vietnam Pro, sans-serif;
 
   /* colors */
-  --color-primary: rgb(105, 71, 150);
+  --color-primary: rgb(0, 180, 216);
   --color-primary-200: rgba(105, 71, 150, 0.1);
   --color-secondary: rgb(204, 96, 57);
   --color-font: #eee9ff;
   --color-tertiary: rgb(231, 43, 126);
-  --color-quaternary: #AAD8DF;
+  --color-quaternary:rgb(3, 4, 94);
   /* rgb(22, 145, 169); */
   --color-pricing: #f4f7fa;
   --color-recruiter: #f1f1f1;

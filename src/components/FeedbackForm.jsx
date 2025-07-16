@@ -7,7 +7,7 @@ const FeedbackModal = ({ onClose, onSubmit }) => {
   const [selectedFeeling, setSelectedFeeling] = useState(null);
 
   const feelings = [
-    { emoji: '🥵', label: t("feelings.Overwhelmed") },   // trop chaud, stressé, épuisé
+    { emoji: '😠', label: t("feelings.Overwhelmed") },   // trop chaud, stressé, épuisé
     { emoji: '😞', label: t("feelings.Sad") },           // triste
     { emoji: '😐', label: t("feelings.Neutral") },       // neutre / sans émotion forte
     { emoji: '😊', label: t("feelings.Happy") },         // content, joyeux
