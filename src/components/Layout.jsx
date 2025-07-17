@@ -11,7 +11,7 @@ export const LanguageContext = createContext({
 });
 
 const Layout = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   const { i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language);
   return (
@@ -35,7 +35,6 @@ const Layout = () => {
         <Footer />
       </div>
     </LanguageContext>
-    
   );
 };
 
