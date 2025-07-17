@@ -24,7 +24,6 @@ const Layout = () => {
         <Footer />
       </div>
     </LanguageContext>
-    
   );
 };
 

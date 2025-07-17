@@ -1,11 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./i18n.js";
-import Home from './pages/Home.jsx';
-import Layout from './components/Layout.jsx';
-import ErrorPage from './pages/Error.jsx';
+import Home from "./pages/Home.jsx";
+import Dashboard from "./pages/Dashboard.jsx"; // ✅ import it
+import Layout from "./components/Layout.jsx";
+import ErrorPage from "./pages/Error.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,9 +17,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />
+        element: <Home />,
       },
-
+      {
+        path: "/dashboard", // ✅ Add this Dashboard route
+        element: <Dashboard />,
+      },
     ],
   },
 ]);
