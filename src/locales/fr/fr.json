@@ -21,6 +21,13 @@
     "submit": "Envoyer maintenant",
     "button": "Donner votre avis"
   },
+  "speech": {
+    "start": "Démarrer l'enregistrement",
+    "stop": "Arrêter",
+    "recording": "Enregistrement...",
+    "recognized": "Texte reconnu",
+    "unsupported": "Votre navigateur ne supporte pas la reconnaissance vocale."
+  },
   "feelings": {
     "Overwhelmed": "Mauvais",
     "Sad": "Triste",

@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+
 
 const FeedbackModal = ({ onClose, onSubmit }) => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [comment, setComment] = useState('');
   const [selectedFeeling, setSelectedFeeling] = useState(null);
 
@@ -13,6 +15,49 @@ const FeedbackModal = ({ onClose, onSubmit }) => {
     { emoji: '😊', label: t("feelings.Happy") },         // content, joyeux
     { emoji: '🥰', label: t("feelings.Loved") },         // aimé, affectueux
   ];
+
+  const {
+  transcript,
+  listening,
+  resetTranscript,
+  browserSupportsSpeechRecognition,
+} = useSpeechRecognition();
+
+const [recording, setRecording] = useState(false);
+
+// Mettre à jour le commentaire automatiquement à chaque nouvelle reconnaissance
+useEffect(() => {
+  if (transcript) {
+    setComment(transcript);
+  }
+}, [transcript]);
+
+const startListening = () => {
+  resetTranscript();
+  SpeechRecognition.startListening({ continuous: true, language: i18n.language });
+  setRecording(true);
+};
+
+const stopListening = () => {
+  SpeechRecognition.stopListening();
+  setRecording(false);
+};
+
+if (!browserSupportsSpeechRecognition) {
+  return <p>{t("speech.unsupported")}</p>;
+}
+
+
+  // Met à jour automatiquement le commentaire avec la transcription vocale
+  useEffect(() => {
+    if (transcript) {
+      setComment(transcript);
+    }
+  }, [transcript]);
+
+  if (!browserSupportsSpeechRecognition) {
+    return <p>{t("Votre navigateur ne supporte pas la reconnaissance vocale.")}</p>;
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -96,7 +141,37 @@ const FeedbackModal = ({ onClose, onSubmit }) => {
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
               ></textarea>
+
+              <div className="flex items-center gap-3 mt-2">
+                {!recording ? (
+                  <button
+                    type="button"
+                    onClick={startListening}
+                    className="px-3 py-1 text-sm rounded bg-gray-100 hover:bg-gray-200 text-gray-800 flex gap-1"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic-icon lucide-mic"><path d="M12 19v3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><rect x="9" y="2" width="6" height="13" rx="3"/></svg>
+                    {t("speech.start")}
+                  </button>
+                ) : (
+                  <>
+                    <button
+                      type="button"
+                      onClick={stopListening}
+                      className="px-3 py-1 text-sm rounded bg-red-100 hover:bg-red-200 text-red-800 flex gap-1"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic-off-icon lucide-mic-off"><line x1="2" x2="22" y1="2" y2="22"/><path d="M18.89 13.23A7.12 7.12 0 0 0 19 12v-2"/><path d="M5 10v2a7 7 0 0 0 12 5"/><path d="M15 9.34V5a3 3 0 0 0-5.68-1.33"/><path d="M9 9v3a3 3 0 0 0 5.12 2.12"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+                      {t("speech.stop")}
+                    </button>
+                  </>
+                )}
+                {/* {transcript && (
+                  <span className="text-sm text-gray-500">
+                    {t("speech.recognized")}: <i>{transcript}</i>
+                  </span>
+                )} */}
+              </div>
             </div>
+
 
             <div className="flex justify-end space-x-3">
               {/* <button
