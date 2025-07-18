@@ -24,7 +24,15 @@
     "success": "Mersi ma nge mvôô !",
     "successTitle": "Mersi ma nge mvôô",
     "successText": "Mvôô a bê bốnga na sôk .",
-    "ok": "OK"
+    "ok": "OK",
+    "emotion": "Emoji éyi me yi nyû nyɛ mɔ?",
+    "name": "Ndene",
+    "namePlaceholder": "Tsuá ndene ô",
+    "age": "Mbem",
+    "agePlaceholder": "Tsuá mbem ô",
+    "department": "Bita'a",
+    "departmentPlaceholder": "Bita'a ne o ɓelɛ"
+
   },
   "validation": {
     "nameRequired": "Ndiogo a bê nte",

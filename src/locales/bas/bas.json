@@ -24,7 +24,14 @@
     "success": "Minsi ma nge muvô !",
     "successTitle": "Minsi ma nge muvô",
     "successText": "Muvô a bê kèdô na sôk .",
-    "ok": "OK"
+    "ok": "OK",
+    "emotion": "Emoji mbo ni mba'a ô mbɔla?",
+    "name": "Din",
+    "namePlaceholder": "Kota din ô",
+    "age": "Léngi",
+    "agePlaceholder": "Kota léngi ô",
+    "department": "Mbombog",
+    "departmentPlaceholder": "Mbombog ma ke mbɔla"
   },
   "validation": {
     "nameRequired": "Mê a bê yé",

@@ -24,7 +24,14 @@
     "success": "Merci pour votre retour !",
     "successTitle": "Merci pour votre avis ",
     "successText": "Votre retour a été enregistré avec succès.",
-    "ok": "OK"
+    "ok": "OK",
+    "emotion": "Quel émoji décrit le mieux votre sentiment ?",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "age": "Âge",
+    "agePlaceholder": "Votre âge",
+    "department": "Département",
+    "departmentPlaceholder": "Département / service visité"
   },
   "validation": {
     "nameRequired": "Le nom est requis",

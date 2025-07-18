@@ -24,7 +24,14 @@
     "success": "Merci pour votre retour !",
     "successTitle": "Merci pour votre avis",
     "successText": "Votre retour a été enregistré avec succès.",
-    "ok": "OK"
+    "ok": "OK",
+    "emotion": "Weti emoji dey show how you di feel?",
+    "name": "Nem",
+    "namePlaceholder": "Puta nem ya",
+    "age": "Age",
+    "agePlaceholder": "Puta age ya",
+    "department": "Service",
+    "departmentPlaceholder": "Service we you go for am"
   },
   "validation": {
     "nameRequired": "Le nom est requis",
