@@ -1,31 +1,78 @@
 {
   "language": {
     "EN": "English",
-    "FR": "French",
+    "FR": "Français",
     "DLA": "Douala",
     "EWO": "Ewondo",
     "BAS": "Bassa"
   },
   "header": {
     "title": "DGH Feedback System",
-    "button": "Sign in "
+    "button": "Login"
   },
   "footer": {
-    "copywrite": "Douala General Hospital"
+    "copywrite": "General Hospital of Douala"
   },
   "feedback": {
     "title": "Feedback",
-    "question": "How did you find your care at DGH?",
+    "question": "How do you find your care at DGH?",
     "subtitle": "Your feedback helps us better understand your needs and improve our services.",
     "placeholder": "Add a comment...",
-    "submit": "Submit now",
-    "button": "Give Feedback"
+    "submit": "Send Now",
+    "button": "Leave your feedback",
+    "invitation": "Your opinion counts to improve our care at DGH",
+    "success": "Thank you for your feedback!",
+    "successTitle": "Thank you for your feedback",
+    "successText": "Your feedback has been successfully recorded.",
+    "ok": "OK"
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "ageRequired": "Age is required",
+    "ageInvalid": "Invalid age",
+    "departmentRequired": "Department is required"
+  },
+  "speech": {
+    "start": "Start recording",
+    "stop": "Stop",
+    "recording": "Recording...",
+    "recognized": "Recognized text",
+    "unsupported": "Your browser does not support speech recognition."
   },
   "feelings": {
     "Overwhelmed": "Bad",
     "Sad": "Sad",
     "Neutral": "Neutral",
     "Happy": "Happy",
-    "Loved": "Excellent"
+    "Loved": "Great"
+  },
+  "login": {
+    "title": "Sign in to your account",
+    "email": "Email address",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "submit": "Sign in",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "failed": "Login failed. Please try again.",
+    "noAccount": "Don't have an account?",
+    "signup": "Sign up"
+  },
+  "register": {
+    "title": "Create an account",
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "Phone",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "shortPassword": "Password must be at least 6 characters",
+    "passwordMismatch": "Passwords must match",
+    "submit": "Create account",
+    "failed": "Registration failed. Please try again.",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Sign in"
   }
 }

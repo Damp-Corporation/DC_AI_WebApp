@@ -1,32 +1,78 @@
-
 {
   "language": {
     "EN": "English",
     "FR": "Français",
     "DLA": "Douala",
     "EWO": "Ewondo",
-    "BAS": "Basa"
+    "BAS": "Bassa"
   },
   "header": {
-    "title": "Sɛ mɛ yɔ DGH",
-    "button": "Lɔ̂ tondi"
+    "title": "Système d’retour DGH",
+    "button": "Connecter"
   },
   "footer": {
-    "copywrite": "Lɛ́ mɛ́ wɔ DGH"
+    "copywrite": "Hôpital Général Douala"
   },
   "feedback": {
-    "title": "Mɛ́ yɔ",
-    "question": "Wɔ lɛ́ mɛ́ kɔɔ na DGH?",
-    "subtitle": "Mɛ́ yɔ na ɛ tɛ sɛ wumɛ́ lɛ, ɛ bɔ lɛ ɛ yɛ mɔbɛ́.",
-    "placeholder": "Yɔ́ mɛ wɛ...",
-    "submit": "Sɛ mɛ́ yɔ",
-    "button": "Tɛɛ mɛ́ yɔ"
+    "title": "Muvô",
+    "question": "Ma bê nzudô mbôlâ la DGH ?",
+    "subtitle": "Muvô ma bê yé bé ma yé mà yi kèdô ôk ma yé kwêtâ ma bê ma mbôlô.",
+    "placeholder": "Yé mbôlô…",
+    "submit": "Mandâ mbôlô",
+    "button": "Vaha nte muvô",
+    "invitation": "Muvô ma bê nte mâ yé kèdô mâng na DGH",
+    "success": "Minsi ma nge muvô !",
+    "successTitle": "Minsi ma nge muvô",
+    "successText": "Muvô a bê kèdô na sôk .",
+    "ok": "OK"
+  },
+  "validation": {
+    "nameRequired": "Mê a bê yé",
+    "ageRequired": "Mɛ́ a bê yé",
+    "ageInvalid": "Mɛ́ a yêga",
+    "departmentRequired": "Service a bê yé"
+  },
+  "speech": {
+    "start": "Tɛma ngûmbółâ",
+    "stop": "Fâ",
+    "recording": "Ngûmbółâ…",
+    "recognized": "Mvô a fâ",
+    "unsupported": "Browser nge mâ fonngâ ka reconhecimento vocal."
   },
   "feelings": {
-    "Overwhelmed": "Mbɔsɔ",
-    "Sad": "Bɛtɛ",
-    "Neutral": "Mɔtɔ",
-    "Happy": "Sɛŋɛ",
-    "Loved": "Bɔbɔ"
+    "Overwhelmed": "Mauvais",
+    "Sad": "Triste",
+    "Neutral": "Neutre",
+    "Happy": "Heureux",
+    "Loved": "Formidable"
+  },
+  "login": {
+    "title": "Connecter na compte nge",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "remember": "Mifâ nge me",
+    "forgot": "Mɛ́le mo ndo’o ?",
+    "submit": "Connecter",
+    "required": "Mê a fon",
+    "invalidEmail": "Email a yêga",
+    "failed": "Connecter a fon. Tɛma kosô.",
+    "noAccount": "O fo’o na compte ?",
+    "signup": "Vaha compte"
+  },
+  "register": {
+    "title": "Vaha compte",
+    "fullName": "Mê komple",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "password": "Mot de passe",
+    "confirmPassword": "Nge mot de passe",
+    "required": "Mê a fon",
+    "invalidEmail": "Email a yêga",
+    "shortPassword": "Password a bê 6 caractères",
+    "passwordMismatch": "Mot de passe a yie yêga",
+    "submit": "Vaha compte",
+    "failed": "Vaha compte a fon. Tɛma kosô.",
+    "alreadyHaveAccount": "O mê na compte ?",
+    "loginLink": "Connecter"
   }
 }

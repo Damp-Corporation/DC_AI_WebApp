@@ -2,30 +2,77 @@
   "language": {
     "EN": "English",
     "FR": "Français",
-    "DLA": "Duala",
+    "DLA": "Douala",
     "EWO": "Ewondo",
     "BAS": "Bassa"
   },
   "header": {
-    "title": "Sistem a mbɔgɔ DGH",
-    "button": "Lɔ̂ tondi"
+    "title": "Système de retour DGH",
+    "button": "Se connecter"
   },
   "footer": {
-    "copywrite": "Lɔ́ɔ mɔ̂ DGH"
+    "copywrite": "Hôpital Général de Douala"
   },
   "feedback": {
-    "title": "Mbɔgɔ",
-    "question": "O nyɛ kɛ mba lɔ́ɔ na DGH?",
-    "subtitle": "Mbɔgɔ na wo be yɛ̂ e nyɛ kɛ lɔ̂mɛ, na sɛ e yɛ nyɛ moto.",
-    "placeholder": "Pɛsa mbɔgɔ wɛ...",
-    "submit": "Tɛmba mbɔgɔ",
-    "button": "Pɛsa mbɔgɔ"
+    "title": "Retour",
+    "question": "Comment vous trouvez vos soins à DGH ?",
+    "subtitle": "Votre retour nous aide à mieux comprendre vos besoins et à améliorer nos services.",
+    "placeholder": "Ajoutez un commentaire…",
+    "submit": "Envoyer maintenant",
+    "button": "Donner votre avis",
+    "invitation": "Votre avis compte pour améliorer nos soins à DGH",
+    "success": "Merci pour votre retour !",
+    "successTitle": "Merci pour votre avis",
+    "successText": "Votre retour a été enregistré avec succès.",
+    "ok": "OK"
+  },
+  "validation": {
+    "nameRequired": "Le nom est requis",
+    "ageRequired": "L'âge est requis",
+    "ageInvalid": "Âge invalide",
+    "departmentRequired": "Le service est requis"
+  },
+  "speech": {
+    "start": "Démarrer l'enregistrement",
+    "stop": "Arrêter",
+    "recording": "Enregistrement…",
+    "recognized": "Texte reconnu",
+    "unsupported": "Votre navigateur ne supporte pas la reconnaissance vocale."
   },
   "feelings": {
-    "Overwhelmed": "Mbɛ mɔ",
-    "Sad": "Pɛpɛ",
-    "Neutral": "Mɔndɛ",
-    "Happy": "Sɛlɛ",
-    "Loved": "Lɔmbɛ"
+    "Overwhelmed": "Mauvais",
+    "Sad": "Triste",
+    "Neutral": "Neutre",
+    "Happy": "Heureux",
+    "Loved": "Formidable"
+  },
+  "login": {
+    "title": "Connexion à votre compte",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "remember": "Se souvenir de moi",
+    "forgot": "Mot de passe oublié ?",
+    "submit": "Se connecter",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Adresse e-mail invalide",
+    "failed": "Échec de la connexion. Veuillez réessayer.",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "signup": "Créer un compte"
+  },
+  "register": {
+    "title": "Créer un compte",
+    "fullName": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Adresse e-mail invalide",
+    "shortPassword": "Le mot de passe doit contenir au moins 6 caractères",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "submit": "Créer un compte",
+    "failed": "Échec de l'inscription. Veuillez réessayer.",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "loginLink": "Se connecter"
   }
 }
