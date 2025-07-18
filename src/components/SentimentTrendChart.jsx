@@ -6,7 +6,7 @@ export default function SentimentTrendChart({ data }) {
   const scores = data.map((d) => sentiment.analyze(d.comment).score);
 
   return (
-    <div className="p-4">
+    <div className="p-4  h-64">
       <h2 className="text-xl mb-2">Sentiment Trend</h2>
       <Line
         data={{

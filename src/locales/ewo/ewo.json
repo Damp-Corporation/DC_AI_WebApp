@@ -7,45 +7,45 @@
     "BAS": "Bassa"
   },
   "header": {
-    "title": "Système de feedback DGH",
-    "button": "Ke se connecter"
+    "title": "Système mé retour DGH",
+    "button": "Mé lo mbot"
   },
   "footer": {
-    "copywrite": "Hôpital Général Douala"
+    "copywrite": "DGH Douala Hospital"
   },
   "feedback": {
-    "title": "Mvôô",
-    "question": "Mɛ́ bɛ́ gor ngum mbôla mɛ́ na DGH ?",
-    "subtitle": "Mvôô ma bê fô mɛ́ ma mâng ma mɛ́ a bốnga sôk kay mɛ́ djow.",
-    "placeholder": "Mbôlô wɛ́…",
-    "submit": "Tchôla mbôlô",
-    "button": "Vaha nte mvôô",
-    "invitation": "Mvôô ma bê nte ma mâng mɛ́ a bốnga sôk na DGH",
-    "success": "Mersi ma nge mvôô !",
-    "successTitle": "Mersi ma nge mvôô",
-    "successText": "Mvôô a bê bốnga na sôk .",
+    "title": "Mbot",
+    "question": "Lé yé mé soins na DGH ?",
+    "subtitle": "Mé retour a dja ma mbé mé nzila a mènana mé besoins na nyé service",
+    "placeholder": "Mè tonga mé commentaire…",
+    "submit": "Mbot ma édjà",
+    "button": "Ténga mbot",
+    "invitation": "Mé avis a compte mé améliorer mé soins na DGH",
+    "success": "Mèsi mé retour !",
+    "successTitle": "Mèsi mé avis",
+    "successText": "Mé retour a enregistré bien.",
     "ok": "OK",
-    "emotion": "Emoji éyi me yi nyû nyɛ mɔ?",
-    "name": "Ndene",
-    "namePlaceholder": "Tsuá ndene ô",
-    "age": "Mbem",
-    "agePlaceholder": "Tsuá mbem ô",
-    "department": "Bita'a",
-    "departmentPlaceholder": "Bita'a ne o ɓelɛ"
-
+    "emotion": "Nza émoji ô mé sentiment ?",
+    "name": "Lé nami",
+    "namePlaceholder": "Nde yami",
+    "age": "Mbongo",
+    "agePlaceholder": "Nde mbongo",
+    "department": "Service / Département",
+    "departmentPlaceholder": "Service mé visite"
   },
   "validation": {
-    "nameRequired": "Ndiogo a bê nte",
-    "ageRequired": "Mɛ́ a bê nte",
-    "ageInvalid": "Mɛ́ a fo’o",
-    "departmentRequired": "Service a bê nte"
+    "nameRequired": "Nami a essentiel",
+    "ageRequired": "Mbongo a essentiel",
+    "ageInvalid": "Mbongo a invalid",
+    "departmentRequired": "Service a essentiel",
+    "commentRequired": "Commentaire a essentiel"
   },
   "speech": {
-    "start": "Tɛ́ma ngûmbôla",
-    "stop": "Fô",
-    "recording": "Ngûmbôla…",
-    "recognized": "Mvôô a kôla",
-    "unsupported": "Nguzu yé browser mûti nte fé luisteren."
+    "start": "Tâ mfòng enregistrement",
+    "stop": "Arrêter",
+    "recording": "Enregistrement...",
+    "recognized": "Texte reconnu",
+    "unsupported": "Browser na mbot mé reconnaissance vocale"
   },
   "feelings": {
     "Overwhelmed": "Mauvais",
@@ -55,32 +55,46 @@
     "Loved": "Formidable"
   },
   "login": {
-    "title": "Se connecter na compte nge",
+    "title": "Mbot na compte mbi",
     "email": "Adresse e-mail",
     "password": "Mot de passe",
-    "remember": "Bima nge me",
-    "forgot": "Mɛ́le mo ndo’o ?",
-    "submit": "Ke se connecter",
-    "required": "Mɛ́ a fo’o",
-    "invalidEmail": "Email a fo’o",
-    "failed": "Se connecter a fo’o. Tɛ́ma kosô.",
-    "noAccount": "O fo’o na compte ?",
-    "signup": "Vaha compte"
+    "remember": "Mé mbi lo mbot",
+    "forgot": "Mbongo oublié ?",
+    "submit": "Mbot",
+    "required": "Champ a essentiel",
+    "invalidEmail": "Adresse e-mail a invalid",
+    "failed": "Mbot a échoué. Réessayer.",
+    "noAccount": "A yé na compte ?",
+    "signup": "Créer compte"
+  },
+  "forgetPassword": {
+    "title": "Mot de passe oublié",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Tonga nde adresse e-mail",
+    "submit": "Mbot lien réinitialisation",
+    "sending": "Mbot...",
+    "backToLogin": "Retour na mbot",
+    "emailInvalid": "Adresse e-mail a invalid",
+    "emailRequired": "Adresse e-mail a essentiel",
+    "successTitle": "Lien envoyé",
+    "successText": "Email réinitialisation a envoyé na "
   },
   "register": {
-    "title": "Vaha compte",
-    "fullName": "Ndiogo niile",
+    "title": "Créer compte",
+    "fullName": "Lé nami",
     "email": "Adresse e-mail",
     "phone": "Téléphone",
     "password": "Mot de passe",
-    "confirmPassword": "Kɛla mot de passe",
-    "required": "Mɛ́ a fo’o",
-    "invalidEmail": "Email a fo’o",
-    "shortPassword": "Mot de passe mɛ́ mâng 6 caractères",
-    "passwordMismatch": "Mot de passe ma yé fo’o",
-    "submit": "Vaha compte",
-    "failed": "Vaha compte a fo’o. Tɛ́ma kosô.",
-    "alreadyHaveAccount": "O mê na compte ?",
-    "loginLink": "Ke se connecter"
+    "confirmPassword": "Confirmé mot de passe",
+    "required": "Champ a essentiel",
+    "invalidEmail": "Adresse e-mail a invalid",
+    "shortPassword": "Mot de passe doit mbi au moins 6 caractères",
+    "passwordMismatch": "Mot de passe ne match",
+    "submit": "Créer compte",
+    "failed": "Inscription a échoué. Réessayer.",
+    "alreadyHaveAccount": "A yé déjà compte ?",
+    "loginLink": "Mbot",
+    "successTitle": "Inscription réussie",
+    "successText": "Compte a créé bien."
   }
 }

@@ -4,11 +4,12 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./i18n.js";
 import Home from "./pages/Home.jsx";
-import Dashboard from "./pages/Dashboard.jsx"; // ✅ import it
+import Dashboard from "./pages/Dashboard.jsx"; 
 import Layout from "./components/Layout.jsx";
 import ErrorPage from "./pages/Error.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
+import ForgetPassword from "./pages/ForgetPasswword.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/login", 
         element: <Login />,
+      },
+      {
+        path: "/forgot-password", 
+        element: <ForgetPassword />,
       },
       {
         path: "/register", 

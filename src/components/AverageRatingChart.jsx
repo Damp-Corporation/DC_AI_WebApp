@@ -5,7 +5,7 @@ export default function AverageRatingChart({ data }) {
   const avg = data.reduce((acc, cur) => acc + cur.rating, 0) / data.length;
 
   return (
-    <div className="p-4">
+    <div className="p-4 h-64">
       <h2 className="text-xl mb-2">Average Rating</h2>
       <Bar
         data={{

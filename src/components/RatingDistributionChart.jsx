@@ -6,7 +6,7 @@ export default function RatingDistributionChart({ data }) {
   );
 
   return (
-    <div className="p-4">
+    <div className="p-4 h-64">
       <h2 className="text-xl mb-2">Rating Distribution</h2>
       <Pie
         data={{

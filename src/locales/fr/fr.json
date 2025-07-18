@@ -37,7 +37,8 @@
     "nameRequired": "Le nom est requis",
     "ageRequired": "L'âge est requis",
     "ageInvalid": "Âge invalide",
-    "departmentRequired": "Le service est requis"
+    "departmentRequired": "Le service est requis",
+    "commentRequired": "Le commentaire est requis"
   },
   "speech": {
     "start": "Démarrer l'enregistrement",
@@ -66,6 +67,18 @@
     "noAccount": "Vous n'avez pas de compte ?",
     "signup": "Créer un compte"
   },
+  "forgetPassword": {
+    "title": "Mot de passe oublié",
+    "emailLabel": "Adresse email",
+    "emailPlaceholder": "Entrez votre adresse email",
+    "submit": "Envoyer le lien de réinitialisation",
+    "sending": "Envoi...",
+    "backToLogin": "Retour à la connexion",
+    "emailInvalid": "Adresse email invalide",
+    "emailRequired": "L'adresse email est requise",
+    "successTitle": "Lien envoyé",
+    "successText": "Un email de réinitialisation a été envoyé à "
+  },
   "register": {
     "title": "Créer un compte",
     "fullName": "Nom complet",
@@ -80,7 +93,9 @@
     "submit": "Créer un compte",
     "failed": "Échec de l'inscription. Veuillez réessayer.",
     "alreadyHaveAccount": "Vous avez déjà un compte ?",
-    "loginLink": "Se connecter"
+    "loginLink": "Se connecter",
+    "successTitle": "Inscription réussie",
+    "successText": "Votre compte a été créé avec succès."
   }
 
 }

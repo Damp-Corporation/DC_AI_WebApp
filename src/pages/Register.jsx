@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
+import Swal from 'sweetalert2';
 
 const Register = () => {
   const { t } = useTranslation();
@@ -34,6 +35,15 @@ const Register = () => {
       try {
         console.log('Register values:', values);
         // await registerUser(values);
+
+        Swal.fire({
+            icon: 'success',
+            title: t('register.successTitle'),
+            text: t('register.successText'),
+            confirmButtonColor: '#3B82F6',
+        });
+
+        formik.resetForm();
       } catch (err) {
         setError(t('register.failed'));
       }
@@ -41,7 +51,7 @@ const Register = () => {
   });
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+    <div className="flex items-center justify-center px-4 py-6">
       <div className="w-full max-w-md p-6 bg-white shadow-md rounded-xl space-y-6">
         <h2 className="text-center text-2xl font-bold text-gray-800">
           {t('register.title')}

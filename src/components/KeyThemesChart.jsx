@@ -61,7 +61,7 @@ export default function KeyThemesChart({ data }) {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4  h-64">
       <h2 className="text-xl mb-2">Key Themes (Top Words)</h2>
       <Bar data={chartData} options={options} />
     </div>
