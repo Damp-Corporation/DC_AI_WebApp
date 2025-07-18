@@ -24,7 +24,14 @@
     "success": "Thank you for your feedback!",
     "successTitle": "Thank you for your feedback",
     "successText": "Your feedback has been successfully recorded.",
-    "ok": "OK"
+    "ok": "OK",
+    "emotion": "Which emoji best describes your feeling?",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "age": "Age",
+    "agePlaceholder": "Your age",
+    "department": "Department",
+    "departmentPlaceholder": "Department / visited service"
   },
   "validation": {
     "nameRequired": "Name is required",
