@@ -7,79 +7,94 @@
     "BAS": "Bassa"
   },
   "header": {
-    "title": "Système d’retour DGH",
-    "button": "Connecter"
+    "title": "Ngōnguāla DGH ŋa kɔ́lɔ́",
+    "button": "Dɔ̀ œ́lɛ́"
   },
   "footer": {
-    "copywrite": "Hôpital Général Douala"
+    "copywrite": "DGH Douala Hôpital"
   },
   "feedback": {
-    "title": "Muvô",
-    "question": "Ma bê nzudô mbôlâ la DGH ?",
-    "subtitle": "Muvô ma bê yé bé ma yé mà yi kèdô ôk ma yé kwêtâ ma bê ma mbôlô.",
-    "placeholder": "Yé mbôlô…",
-    "submit": "Mandâ mbôlô",
-    "button": "Vaha nte muvô",
-    "invitation": "Muvô ma bê nte mâ yé kèdô mâng na DGH",
-    "success": "Minsi ma nge muvô !",
-    "successTitle": "Minsi ma nge muvô",
-    "successText": "Muvô a bê kèdô na sôk .",
+    "title": "Mbo Babeli",
+    "question": "Mún di ké bɛ́ hɔ̀ mɛnɛ̀ wɔ́ DGH ?",
+    "subtitle": "Mbo babeli nge mɔ̀ di gā famā di mɛn dī vōtā, di sabi atō yi palé.",
+    "placeholder": "Koŋondi mo...",
+    "submit": "Tá yī mo",
+    "button": "Tá mbo babeli",
+    "invitation": "Mbo babeli nge bā mūkādi mo DGH",
+    "success": "M̄ mɔ́n mbo babeli !",
+    "successTitle": "M̄si mbo babeli ",
+    "successText": "Mbo babeli nge bā mūkādi lo.",
     "ok": "OK",
-    "emotion": "Emoji mbo ni mba'a ô mbɔla?",
-    "name": "Din",
-    "namePlaceholder": "Kota din ô",
-    "age": "Léngi",
-    "agePlaceholder": "Kota léngi ô",
-    "department": "Mbombog",
-    "departmentPlaceholder": "Mbombog ma ke mbɔla"
+    "emotion": "Bɛ́ émoji ŋa bā di mo kuɔ́li mo ?",
+    "name": "Ŋañe",
+    "namePlaceholder": "Ŋañe mi",
+    "age": "Meyaŋ",
+    "agePlaceholder": "Meyaŋ a mí",
+    "department": "Mbāzāne",
+    "departmentPlaceholder": "Mbāzāne / dī vōtā"
   },
   "validation": {
-    "nameRequired": "Mê a bê yé",
-    "ageRequired": "Mɛ́ a bê yé",
-    "ageInvalid": "Mɛ́ a yêga",
-    "departmentRequired": "Service a bê yé"
+    "nameRequired": "Ŋañe nī bā mi",
+    "ageRequired": "Meyaŋ nī bā mi",
+    "ageInvalid": "Meyaŋ nogā bā",
+    "departmentRequired": "Mbāzāne nī bā mi",
+    "commentRequired": "Babeli nī bā mi"
   },
   "speech": {
-    "start": "Tɛma ngûmbółâ",
-    "stop": "Fâ",
-    "recording": "Ngûmbółâ…",
-    "recognized": "Mvô a fâ",
-    "unsupported": "Browser nge mâ fonngâ ka reconhecimento vocal."
+    "start": "Dīŋdi rekɔ̄d",
+    "stop": "Fā rekɔ̄d",
+    "recording": "Rekɔ̄d ga",
+    "recognized": "Texta yō gā",
+    "unsupported": "Brauzer nge mī rekɔ̄gnī rekɔ̄d vo nī"
   },
   "feelings": {
-    "Overwhelmed": "Mauvais",
-    "Sad": "Triste",
-    "Neutral": "Neutre",
-    "Happy": "Heureux",
-    "Loved": "Formidable"
+    "Overwhelmed": "Mīzā",
+    "Sad": "Nnyāŋ",
+    "Neutral": "Mīandɔ",
+    "Happy": "Mbɛ́nti",
+    "Loved": "Féfé"
   },
   "login": {
-    "title": "Connecter na compte nge",
-    "email": "Adresse e-mail",
-    "password": "Mot de passe",
-    "remember": "Mifâ nge me",
-    "forgot": "Mɛ́le mo ndo’o ?",
-    "submit": "Connecter",
-    "required": "Mê a fon",
-    "invalidEmail": "Email a yêga",
-    "failed": "Connecter a fon. Tɛma kosô.",
-    "noAccount": "O fo’o na compte ?",
-    "signup": "Vaha compte"
+    "title": "Dɔ̀ œ́lɛ́",
+    "email": "Email ádrɛssa",
+    "password": "Mbo pass",
+    "remember": "Kuɔ̂lɛn mo mɔ̀ɔn",
+    "forgot": "Mbo pass nogā",
+    "submit": "Dɔ̀ œ́lɛ́",
+    "required": "Nī bā mi",
+    "invalidEmail": "Email nogā bā",
+    "failed": "Dɔ̀ œ́lɛ́ nogā fai. Bā netōre.",
+    "noAccount": "O nge fā acount ?",
+    "signup": "Sconcepta acount"
+  },
+  "forgetPassword": {
+    "title": "Mbo pass nogā",
+    "emailLabel": "Email ádrɛssa",
+    "emailPlaceholder": "Nōtō email ádrɛssa",
+    "submit": "Tá lien pass",
+    "sending": "Rekɔ̄d...",
+    "backToLogin": "Lɔ̀ dɔ̀ œ́lɛ́",
+    "emailInvalid": "Email nogā bā",
+    "emailRequired": "Email nī bā mi",
+    "successTitle": "Lien tá bā",
+    "successText": "Email pass nogā tá bā i "
   },
   "register": {
-    "title": "Vaha compte",
-    "fullName": "Mê komple",
-    "email": "Adresse e-mail",
-    "phone": "Téléphone",
-    "password": "Mot de passe",
-    "confirmPassword": "Nge mot de passe",
-    "required": "Mê a fon",
-    "invalidEmail": "Email a yêga",
-    "shortPassword": "Password a bê 6 caractères",
-    "passwordMismatch": "Mot de passe a yie yêga",
-    "submit": "Vaha compte",
-    "failed": "Vaha compte a fon. Tɛma kosô.",
-    "alreadyHaveAccount": "O mê na compte ?",
-    "loginLink": "Connecter"
+    "title": "Sconcepta acount",
+    "fullName": "Ŋañe pí",
+    "email": "Email ádrɛssa",
+    "phone": "Téléfono",
+    "password": "Mbo pass",
+    "confirmPassword": "Kōnfām pass",
+    "required": "Nī bā mi",
+    "invalidEmail": "Email nogā bā",
+    "shortPassword": "Pass nge bé ma 6 karaktɛ̀",
+    "passwordMismatch": "Pass nogā bā e tō",
+    "submit": "Sconcepta acount",
+    "failed": "Inscripción nogā fai. Bā netōre.",
+    "alreadyHaveAccount": "O nge fā acount ?",
+    "loginLink": "Dɔ̀ œ́lɛ́",
+    "successTitle": "Inscripción bók",
+    "successText": "Acount nge tá bā bā."
   }
 }

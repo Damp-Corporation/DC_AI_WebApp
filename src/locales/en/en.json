@@ -8,21 +8,21 @@
   },
   "header": {
     "title": "DGH Feedback System",
-    "button": "Login"
+    "button": "Log in"
   },
   "footer": {
-    "copywrite": "General Hospital of Douala"
+    "copywrite": "Douala General Hospital"
   },
   "feedback": {
     "title": "Feedback",
-    "question": "How do you find your care at DGH?",
-    "subtitle": "Your feedback helps us better understand your needs and improve our services.",
+    "question": "How did you find your care at DGH?",
+    "subtitle": "Your feedback helps us understand your needs and improve our services.",
     "placeholder": "Add a comment...",
-    "submit": "Send Now",
+    "submit": "Send now",
     "button": "Leave your feedback",
-    "invitation": "Your opinion counts to improve our care at DGH",
+    "invitation": "Your opinion matters to improve our care at DGH",
     "success": "Thank you for your feedback!",
-    "successTitle": "Thank you for your feedback",
+    "successTitle": "Thank you for your feedback ",
     "successText": "Your feedback has been successfully recorded.",
     "ok": "OK",
     "emotion": "Which emoji best describes your feeling?",
@@ -31,13 +31,14 @@
     "age": "Age",
     "agePlaceholder": "Your age",
     "department": "Department",
-    "departmentPlaceholder": "Department / visited service"
+    "departmentPlaceholder": "Department / service visited"
   },
   "validation": {
     "nameRequired": "Name is required",
     "ageRequired": "Age is required",
     "ageInvalid": "Invalid age",
-    "departmentRequired": "Department is required"
+    "departmentRequired": "Department is required",
+    "commentRequired": "Comment is required"
   },
   "speech": {
     "start": "Start recording",
@@ -54,17 +55,29 @@
     "Loved": "Great"
   },
   "login": {
-    "title": "Sign in to your account",
+    "title": "Login to your account",
     "email": "Email address",
     "password": "Password",
     "remember": "Remember me",
     "forgot": "Forgot password?",
-    "submit": "Sign in",
+    "submit": "Log in",
     "required": "This field is required",
     "invalidEmail": "Invalid email address",
     "failed": "Login failed. Please try again.",
-    "noAccount": "Don't have an account?",
+    "noAccount": "Don’t have an account?",
     "signup": "Sign up"
+  },
+  "forgetPassword": {
+    "title": "Forgot password",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email address",
+    "submit": "Send reset link",
+    "sending": "Sending...",
+    "backToLogin": "Back to login",
+    "emailInvalid": "Invalid email address",
+    "emailRequired": "Email address is required",
+    "successTitle": "Link sent",
+    "successText": "A reset email has been sent to "
   },
   "register": {
     "title": "Create an account",
@@ -76,10 +89,12 @@
     "required": "This field is required",
     "invalidEmail": "Invalid email address",
     "shortPassword": "Password must be at least 6 characters",
-    "passwordMismatch": "Passwords must match",
+    "passwordMismatch": "Passwords do not match",
     "submit": "Create account",
     "failed": "Registration failed. Please try again.",
     "alreadyHaveAccount": "Already have an account?",
-    "loginLink": "Sign in"
+    "loginLink": "Log in",
+    "successTitle": "Registration successful",
+    "successText": "Your account has been created successfully."
   }
 }

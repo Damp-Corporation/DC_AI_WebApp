@@ -68,7 +68,7 @@ if (!browserSupportsSpeechRecognition) {
     name: Yup.string().required(t("validation.nameRequired")),
     age: Yup.number().required(t("validation.ageRequired")).min(0, t("validation.ageInvalid")),
     department: Yup.string().required(t("validation.departmentRequired")),
-    comment: Yup.string(),
+    comment: Yup.string().required(t("validation.commentRequired")),
   });
 
   const formik = useFormik({

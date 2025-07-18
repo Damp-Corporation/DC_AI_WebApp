@@ -23,6 +23,7 @@ const Login = () => {
       try {
         console.log('Login values:', values);
         // await loginUser(values);
+        formik.resetForm();
       } catch (err) {
         setError(t('login.failed'));
       }
@@ -86,7 +87,7 @@ const Login = () => {
               />
               <span className="ml-2">{t('login.remember')}</span>
             </label>
-            <Link href="/forgot-password" className="text-sm text-blue-600 hover:underline">
+            <Link to="/forgot-password" className="text-sm text-blue-600 hover:underline">
               {t('login.forgot')}
             </Link>
           </div>
