@@ -7,25 +7,72 @@
     "BAS": "Bassa"
   },
   "header": {
-    "title": "Sɔ mɛnɛ DGH",
-    "button": "Zɔ̂ mimbɛ"
+    "title": "Système de feedback DGH",
+    "button": "Ke se connecter"
   },
   "footer": {
-    "copywrite": "Bikɔ́tɔ DGH"
+    "copywrite": "Hôpital Général Douala"
   },
   "feedback": {
-    "title": "Nsɔl",
-    "question": "Wɔn o bo dzem a bikɔ́tɔ DGH?",
-    "subtitle": "Nsɔl na wo bɛ yɛ nyɛ yɔ mɛ na sɛ ɛ nyɛ mɛnɛ yɔ a nyɔ.",
-    "placeholder": "Tɛg nsɔl wɛ...",
-    "submit": "Tɛg nsɔl",
-    "button": "Tɔa nsɔl"
+    "title": "Mvôô",
+    "question": "Mɛ́ bɛ́ gor ngum mbôla mɛ́ na DGH ?",
+    "subtitle": "Mvôô ma bê fô mɛ́ ma mâng ma mɛ́ a bốnga sôk kay mɛ́ djow.",
+    "placeholder": "Mbôlô wɛ́…",
+    "submit": "Tchôla mbôlô",
+    "button": "Vaha nte mvôô",
+    "invitation": "Mvôô ma bê nte ma mâng mɛ́ a bốnga sôk na DGH",
+    "success": "Mersi ma nge mvôô !",
+    "successTitle": "Mersi ma nge mvôô",
+    "successText": "Mvôô a bê bốnga na sôk .",
+    "ok": "OK"
+  },
+  "validation": {
+    "nameRequired": "Ndiogo a bê nte",
+    "ageRequired": "Mɛ́ a bê nte",
+    "ageInvalid": "Mɛ́ a fo’o",
+    "departmentRequired": "Service a bê nte"
+  },
+  "speech": {
+    "start": "Tɛ́ma ngûmbôla",
+    "stop": "Fô",
+    "recording": "Ngûmbôla…",
+    "recognized": "Mvôô a kôla",
+    "unsupported": "Nguzu yé browser mûti nte fé luisteren."
   },
   "feelings": {
-    "Overwhelmed": "Mɛ bɛ to",
-    "Sad": "Mɛ bɛ mɔ",
-    "Neutral": "Nsɔ",
-    "Happy": "Dzɛ",
-    "Loved": "Bɛ"
+    "Overwhelmed": "Mauvais",
+    "Sad": "Triste",
+    "Neutral": "Neutre",
+    "Happy": "Heureux",
+    "Loved": "Formidable"
+  },
+  "login": {
+    "title": "Se connecter na compte nge",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "remember": "Bima nge me",
+    "forgot": "Mɛ́le mo ndo’o ?",
+    "submit": "Ke se connecter",
+    "required": "Mɛ́ a fo’o",
+    "invalidEmail": "Email a fo’o",
+    "failed": "Se connecter a fo’o. Tɛ́ma kosô.",
+    "noAccount": "O fo’o na compte ?",
+    "signup": "Vaha compte"
+  },
+  "register": {
+    "title": "Vaha compte",
+    "fullName": "Ndiogo niile",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "password": "Mot de passe",
+    "confirmPassword": "Kɛla mot de passe",
+    "required": "Mɛ́ a fo’o",
+    "invalidEmail": "Email a fo’o",
+    "shortPassword": "Mot de passe mɛ́ mâng 6 caractères",
+    "passwordMismatch": "Mot de passe ma yé fo’o",
+    "submit": "Vaha compte",
+    "failed": "Vaha compte a fo’o. Tɛ́ma kosô.",
+    "alreadyHaveAccount": "O mê na compte ?",
+    "loginLink": "Ke se connecter"
   }
 }
