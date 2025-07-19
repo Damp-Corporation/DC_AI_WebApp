@@ -36,9 +36,9 @@ const Header = () => {
             <Link to="/" className="block ">
               <img src={logo} alt="DGH" className="block size-18 py-2 " />
             </Link>
-            {/* <Link to="/dashboard" className="hover:underline">
+            <Link to="/dashboard" className="hover:underline">
               Dashboard
-            </Link> */}
+            </Link>
             {/* <h1 className="text-xl font-semibold">{t("header.title")}</h1> */}
           </div>
 
