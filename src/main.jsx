@@ -10,6 +10,7 @@ import ErrorPage from "./pages/Error.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
 import ForgetPassword from "./pages/ForgetPasswword.jsx";
+import Chatbot from "./pages/chatBox.jsx";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/register", 
         element: <Register />,
+      },
+      {
+        path: "/chatbox", 
+        element: <Chatbot />,
       },
     ],
   },
