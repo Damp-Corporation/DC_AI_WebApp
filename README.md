@@ -1,14 +1,16 @@
 # DC_AI_WebApp
+
 This is an AI Solution for HealthCare that captures patient feedback, analyses sentiment and themes, and sends multilingual appointment and medication reminders. The system supports local languages (English, French, Douala, Bassa, Ewondo), visual input methods (emojis, star ratings), and voice/text interaction, even in low-bandwidth settings The information can be filtered and sorted, and visualized though different charts.
 
-
 ### Screenshots
-
 
 #### Main Menu
 
 - ![Dashboard_Interface](./screenshotOne.png)
 
+#### Live Demo
+
+- [Here](https://dampai.netlify.app/)
 
 ### FEATURES
 
@@ -17,7 +19,6 @@ This is an AI Solution for HealthCare that captures patient feedback, analyses s
 #### Large Language Model (LLM) for Enhanced Patient Education and Support
 
 #### AI-Enhanced Blood Bank Stock Monitoring and Forecasting System
-
 
 ### BUILT WITH
 
@@ -32,19 +33,18 @@ This is an AI Solution for HealthCare that captures patient feedback, analyses s
 - Clone the project to your local machine;
 - `cd` into the project directory;
 - Run `yarn install` to install the necessary modules;
-- To check in development mode, run `yarn start`, the page will automatically load on [localhost:5143](localhost:3000).
+- To check in development mode, run `yarn start`, the page will automatically load on [localhost:3000](localhost:3000).
 
 ### AUTHORS
 
 👤DAMP Corporation
 
-- Github: [@githubexpjazz](https://github.com/Damp-Corporation/DC_AI_WebApp)
-- Twitter : 
-- Linkedin : 
+- Github: [@Damp_Corporation](https://github.com/Damp-Corporation/DC_AI_WebApp)
+- Twitter :
+- Linkedin :
 - Website :
 
 ### Show your support
-
 
 ### 🤝 Contributing
 
