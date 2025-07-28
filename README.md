@@ -205,15 +205,19 @@ NLP summary and insights extracted from multilingual text
 
 
 
----
-
-🧾 License
-
-MIT License
 
 
 ---
 
-👨‍⚕ Created by
 
-@abenprincely (BACKEND Engineer) of DAMP CORPORATION Team, Cameroon
+👤 Author
+
+abenprincely
+(BACKEND Engineer) of DAMP CORPORATION Team, Cameroon
+
+
+---
+
+📜 License
+
+MIT License © 2024
