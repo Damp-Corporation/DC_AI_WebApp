@@ -110,6 +110,24 @@ Go to: http://127.0.0.1:8000/admin
 
 ---
 
+
+🧪 Testing
+
+Use Postman to test API routes
+
+Login/Registration
+
+POST /api/reset/request/
+
+POST /api/reset/confirm/
+
+POST /api/feedback/
+
+
+
+---
+
+
 🧠 Chatbot API
 
 POST /api/chatbot/chat/
