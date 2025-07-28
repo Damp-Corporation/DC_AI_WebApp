@@ -73,7 +73,7 @@ TWILIO_PHONE_NUMBER=+1234567890
 Ensure PostgreSQL is running. Create a database and user:
 
 CREATE DATABASE multilingual_feedback;
-CREATE USER myuser WITH PASSWORD 'mypassword';
+CREATE USER myuser WITH PASSWORD 'password';
 GRANT ALL PRIVILEGES ON DATABASE multilingual_feedback TO myuser;
 
 Update settings.py:
@@ -83,7 +83,7 @@ DATABASES = {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'multilingual_feedback',
     'USER': 'myuser',
-    'PASSWORD': 'mypassword',
+    'PASSWORD': 'password',
     'HOST': 'localhost',
     'PORT': '5432',
   }
