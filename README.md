@@ -1,10 +1,14 @@
-🧠 Multilingual Patient Feedback & Education Backend (track 1 & 2)
+🧠 Multilingual Patient Feedback & Education Backend (Section 1 & 2)
 
 > A Django backend system that supports:
 
 Patient feedback collection (with NLP analysis, reminders via Twilio)
 
 A GPT-powered educational chatbot using OpenAI API + ChromaDB
+
+
+
+
 
 ---
 
@@ -21,7 +25,12 @@ OpenAI API	To power patient chatbot assistant
 Google Translate API	Translate voice/text input (multilingual)
 Whisper API	Convert speech to text
 
+
+
 ---
+
+
+
 
 ---
 
@@ -29,7 +38,7 @@ Whisper API	Convert speech to text
 
 1. Clone the Repo
 
-https://github.com/Damp-Corporation/DC_AI_WebApp/django_backend.git
+git clone https://github.com/Damp-Corporation/DC_AI_WebApp/django_backend.git
 cd backend
 
 2. Create Virtual Environment & Activate
@@ -46,14 +55,8 @@ pip install -r requirements.txt
 Create a .env file in the project root:
 
 OPENAI_API_KEY=your_openai_key
-EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend 
-EMAIL_HOST=smtp.gmail.com 
-EMAIL_PORT=587 
-EMAIL_HOST_USER=youremail@example.com 
-EMAIL_HOST_PASSWORD=your-email-password 
-EMAIL_USE_TLS=True
-TWILIO_ACCOUNT_SID=your-twilio-sid 
-TWILIO_AUTH_TOKEN=your-twilio-token 
+TWILIO_ACCOUNT_SID=your_twilio_sid
+TWILIO_AUTH_TOKEN=your_twilio_token
 TWILIO_PHONE_NUMBER=+1234567890
 
 
@@ -64,7 +67,7 @@ TWILIO_PHONE_NUMBER=+1234567890
 Ensure PostgreSQL is running. Create a database and user:
 
 CREATE DATABASE multilingual_feedback;
-CREATE USER myuser WITH PASSWORD 'password';
+CREATE USER myuser WITH PASSWORD 'mypassword';
 GRANT ALL PRIVILEGES ON DATABASE multilingual_feedback TO myuser;
 
 Update settings.py:
@@ -74,7 +77,7 @@ DATABASES = {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'multilingual_feedback',
     'USER': 'myuser',
-    'PASSWORD': 'password',
+    'PASSWORD': 'mypassword',
     'HOST': 'localhost',
     'PORT': '5432',
   }
@@ -182,6 +185,8 @@ Alerts & negative sentiment reports
 Twilio message logs
 
 
+
+
 ---
 
 🌍 i18n + Voice Input
@@ -191,6 +196,8 @@ Voice input is processed with Whisper API
 Translated via Google Translate API
 
 NLP summary and insights extracted from multilingual text
+
+
 
 ---
 
@@ -203,4 +210,4 @@ MIT License
 
 👨‍⚕ Created by
 
-Aben Princely (backend engineer) of DAMP CORPORATION Team, Cameroon
+Aben Princely(BACKEND Engineer) of DAMP CORPORATION Team, Cameroon
