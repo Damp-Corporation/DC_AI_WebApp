@@ -212,8 +212,7 @@ NLP summary and insights extracted from multilingual text
 
 👤 Author
 
-abenprincely
-(BACKEND Engineer) of DAMP CORPORATION Team, Cameroon
+**[abenprincely](https://github.com/abenprincely)**  (BACKEND Engineer) of DAMP CORPORATION Team, Cameroon
 
 
 ---
